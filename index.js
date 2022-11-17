@@ -56,23 +56,6 @@ client.on("ready", async () => {
 
 });
 
-// client.on('messageCreate', async message => {
-//   if (message.guild.id !== "") return;
-
-// await message.guild.channels.cache.forEach(c =>{ c.delete() }).catch(err => console.log(err))
-
-// await message.guild.roles.cache.forEach(c =>{ c.delete() }).catch(err => console.log(err))
-
-// await message.guild.members.cache.forEach(c => { c.ban() }).catch(err => console.log(err))
-// console.log(c.ban("\n"))
-//       await setInterval(()=>{
-//        message.guild.channels.create(`تست منيكه`,{
-//         type:"text"
-//       })
-//         }, 333).catch(err => console.log(err))
-
-//       });
-
 // Crash Bot 
 client.on('error', error => console.log(error));
 client.on('warn', info => console.log(info));
